@@ -37,6 +37,7 @@ your user table:
 
         use Symfony\Component\Validator\Constraints as Assert;
         use Doctrine\ORM\Mapping as ORM;
+        use Symfony\Component\Validator\Mapping\ClassMetadata;
 
         // DON'T forget this use statement!!!
         use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
